@@ -18,13 +18,12 @@ function App() {
             </PublicRoute>
           }
         />
-
         <Route
           path="/"
           element={
-            <ProtectedRoute>
+            <PublicRoute>
               <Home />
-            </ProtectedRoute>
+            </PublicRoute>
           }
         />
       </Routes>
