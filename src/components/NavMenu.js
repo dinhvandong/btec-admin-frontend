@@ -59,7 +59,7 @@ function NavMenu(props) {
         >
           <a href="#" className="hover:text-black-500">Cấu hình</a>
           {/* Submenu */}
-          <ul className={` z-1000 absolute left-0 mt-0 w-[200px] bg-white border-2 border-orange-500 ${isConfigsMenuOpen ? 'block' : 'hidden'}`} onMouseEnter={handleConfigsMenuOpen} onMouseLeave={handleConfigsMenuClose}>
+          <ul className={` z-10 absolute left-0 mt-0 w-[200px] bg-white border-2 border-orange-500 ${isConfigsMenuOpen ? 'block' : 'hidden'}`} onMouseEnter={handleConfigsMenuOpen} onMouseLeave={handleConfigsMenuClose}>
             <li><a href="#" className="block px-4 py-2 text-orange-500 hover:text-white-500 hover:bg-gray-500 ">
             <Link to={`/configuration/users`}> Tài khoản</Link>              
             </a></li>

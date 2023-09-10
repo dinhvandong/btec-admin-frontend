@@ -5,7 +5,7 @@ import { Footer } from '../../components/Footer'
 
 const ConfigurationAssignTeacher = () => {
   return (
-    <div className="flex flex-col w-full h-max bg-white justify-between">
+    <div className="flex min-h-screen  flex-col w-full h-max bg-white justify-between">
     <Header />
     <NavMenu selectedItem = "menu4"/>
     <Footer />

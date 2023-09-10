@@ -31,7 +31,7 @@ export const Home = () => {
     // Add more menu items as needed
   ];
   return (
-    <div className="flex flex-col w-full h-max bg-white justify-between">
+    <div className="flex min-h-screen  flex-col w-full h-max bg-white">
       <Header />
       <NavMenu selectedItem = "menu1"/>
       <Footer />
