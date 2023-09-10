@@ -2,6 +2,7 @@ import React from "react";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import Menu from "../components/Menu";
+import NavMenu from "../components/NavMenu";
 
 export const Home = () => {
   const menuData = [
@@ -30,9 +31,9 @@ export const Home = () => {
     // Add more menu items as needed
   ];
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div className="flex flex-col w-full h-max bg-white justify-between">
       <Header />
-      <Menu data={menuData} />
+      <NavMenu selectedItem = "menu1"/>
       <Footer />
     </div>
   );
