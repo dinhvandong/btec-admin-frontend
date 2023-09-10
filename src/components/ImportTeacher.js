@@ -3,7 +3,7 @@ import { Button, Checkbox, DatePicker, Form, Input, Select, Image, Space, Table,
 import { FileExcelFilled } from "@ant-design/icons";
 import * as XLSX from 'xlsx';
 
-const ImportUser = () => {
+const ImportTeacher = () => {
   const [isLoading, setIsLoading] = useState(false)
 
   const [preview, setPreview] = useState([])
@@ -182,4 +182,4 @@ const ImportUser = () => {
   )
 }
 
-export default ImportUser
+export default ImportTeacher

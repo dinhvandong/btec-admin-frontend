@@ -7,6 +7,7 @@ import { Home } from "./pages/Home";
 import Configuration from "./pages/Configuration";
 import ConfigurationCourse from "./pages/configuration/ConfigurationCourse";
 import ConfigurationUser from "./pages/configuration/ConfigurationUser";
+import ConfigurationTeacher from "./pages/configuration/ConfigurationTeacher";
 
 function App() {
   return (
@@ -49,6 +50,14 @@ function App() {
           element={
             <PublicRoute>
               <ConfigurationUser />
+            </PublicRoute>
+          }
+        />
+        <Route
+          path="/configuration/teacher"
+          element={
+            <PublicRoute>
+              <ConfigurationTeacher />
             </PublicRoute>
           }
         />
